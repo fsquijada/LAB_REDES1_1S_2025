@@ -108,7 +108,7 @@ configure terminal
 vtp version 2
 vtp mode server
 vtp domain [nombre_dominio]  # Ejemplo vtp domain redes1
-vtp password [password] # Ejemplo vtp 12345
+vtp password [password] # Ejemplo password 12345
 ```
 
 ## Creación VTP modo cliente
@@ -123,7 +123,7 @@ vtp mode client
 # El dominio tiene que ser el mismo utilizado en el servidor
 vtp domain [nombre_dominio]  # Ejemplo vtp domain redes1
 # El password tiene que ser el mismo utilizado en el servidor
-vtp password [password] # Ejemplo vtp 12345
+vtp password [password] # Ejemplo password 12345
 ```
 
 ## Creación VTP modo transparente
@@ -138,7 +138,7 @@ vtp mode transparent
 # El dominio tiene que ser el mismo utilizado en el servidor
 vtp domain [nombre_dominio]  # Ejemplo vtp domain redes1
 # El password tiene que ser el mismo utilizado en el servidor
-vtp password [password] # Ejemplo vtp 12345
+vtp password [password] # Ejemplo password 12345
 ```
 
 Es importante tener en cuenta que los cambios realizados en un switch en modo transparente no se propagan automáticamente a través de la red VTP. Cualquier cambio realizado en un switch en modo transparente debe ser realizado manualmente en cada uno de los switches conectados a la red.
