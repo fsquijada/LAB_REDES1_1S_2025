@@ -143,3 +143,4 @@ vtp password [password] # Ejemplo password 12345
 
 Es importante tener en cuenta que los cambios realizados en un switch en modo transparente no se propagan automáticamente a través de la red VTP. Cualquier cambio realizado en un switch en modo transparente debe ser realizado manualmente en cada uno de los switches conectados a la red.
 
+Para que el protocolo VTP funcione, todos los switches que participan deben de tener configurada la misma versión, el mismo dominio y la misma contraseña.
